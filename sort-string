@@ -1,0 +1,14 @@
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+     
+        String s = "ASDFASDFASDFADF";
+        char[] arr = s.toCharArray();
+        
+        Arrays.sort(arr);
+        
+        for (char i: arr ) {
+            System.out.println(i);
+        }
+    }
+}
